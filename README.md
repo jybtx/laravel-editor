@@ -1,8 +1,5 @@
 <h1 align="center"> laravel-editor </h1>
 
-<p align="center"> laravel-i-editor.</p>
-
-
 ## Installing
 
 ```shell
