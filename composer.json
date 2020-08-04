@@ -1,0 +1,36 @@
+{
+    "name": "jybtx/laravel-editor",
+    "description": "UEditor for laravel. Support i18n. UEditor is a Rich Text Web Editor From Baidu.",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "ueditor",
+        "laravel-u-editor",
+        "laravel web text editor"
+    ],
+    "authors": [
+        {
+            "name": "jybtx",
+            "email": "2574034626@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "ext-fileinfo": "*",
+        "qiniu/php-sdk": "7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jybtx\\UEditor\\": "src/"
+        }
+    },
+    "extra":{
+        "laravel": {
+            "providers": [
+                "Jybtx\\UEditor\\UEditorServiceProvider"
+            ]
+        }
+    }
+}
