@@ -1,4 +1,4 @@
-<h1 align="center"> laravel-editor </h1>
+<h1> laravel-editor </h1>
 
 ## Installing
 
